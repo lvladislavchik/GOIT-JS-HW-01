@@ -1,3 +1,5 @@
+'use strict'
+
 function textConvert(value) {
   return Number.parseFloat(value.replace(',', '.'));
 }
